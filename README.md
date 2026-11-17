@@ -32,7 +32,7 @@ Más información y el manual también en [masoft.es](https://masoft.es/descarga
 |---|---|
 | Sistema | Windows 10 o Windows 11 de 64 bits |
 | Permisos | Administrador local, para operar servicios |
-| Instalación | No hace falta: un solo .exe que se copia y se abre. Python va dentro |
+| Instalación | Instalador (pide permisos de administrador) o ejecutable único que se copia y se abre; Python va dentro. |
 | Espacio | 37 MB el programa; la base de datos y el registro se crean junto a él |
 | Internet | No hace falta; solo para los avisos NTFY, si se activan |
 
@@ -40,13 +40,14 @@ Al abrirlo propone reiniciarse como administrador. El primer arranque tarda unos
 
 ## Descarga y comprobación
 
-En [Releases](https://github.com/MaSoft/MAServ/releases/latest) están el programa (`MAServ_v1.2.1.exe`), su huella SHA-256 y el manual. Para comprobar que la descarga está completa, en PowerShell:
+En [Releases](https://github.com/MaSoft/MAServ/releases/latest) están el instalador (`MAServ_Setup_v1.2.1.exe`), el ejecutable único (`MAServ_v1.2.1.exe`), sus huellas SHA-256 y el manual. Para comprobar que la descarga está completa, en PowerShell:
 
 ```powershell
+Get-FileHash .\MAServ_Setup_v1.2.1.exe
 Get-FileHash .\MAServ_v1.2.1.exe
 ```
 
-Debe coincidir con `940efeb1125668d5469f8bc8216682cea03d718e5125dcb407297c1e88b2cf7f`.
+Deben coincidir con `a863ba3da2b4d020f78d73c89567e647ca8145dcbad263ccb8260ff1e05fce22` (instalador) y `940efeb1125668d5469f8bc8216682cea03d718e5125dcb407297c1e88b2cf7f` (ejecutable único).
 
 ## Manual
 
