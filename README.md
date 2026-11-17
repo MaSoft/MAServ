@@ -6,7 +6,7 @@ Gestiona y vigila los servicios de Windows desde una interfaz sencilla: inicia, 
 
 [![Descargar](https://img.shields.io/github/v/release/MaSoft/MAServ?label=Descargar&style=for-the-badge)](https://github.com/MaSoft/MAServ/releases/latest)
 
-También puedes descargarlo desde [masoft.es](https://masoft.es/descargas.html).
+Más información y el manual también en [masoft.es](https://masoft.es/descargas.html#maserv).
 
 ![Servicios](capturas/01-servicios.webp)
 
