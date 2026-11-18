@@ -32,7 +32,7 @@ Más información y el manual también en [masoft.es](https://masoft.es/descarga
 |---|---|
 | Sistema | Windows 10 o Windows 11 de 64 bits |
 | Permisos | Administrador local, para operar servicios |
-| Instalación | Instalador (pide permisos de administrador) o ejecutable único que se copia y se abre; Python va dentro. |
+| Instalación | Instalador (pide permisos de administrador) o ejecutable único que se copia y se abre; no hace falta instalar nada más. |
 | Espacio | 37 MB el programa; la base de datos y el registro se crean junto a él |
 | Internet | No hace falta; solo para los avisos NTFY, si se activan |
 
